@@ -1,35 +1,36 @@
 body {
- background-color: rgb(253, 251, 251)  
+  background-color: rgb(253, 251, 251);
 }
-#cabecalho {
-      position: fixed;
-      top: 0;
-      font-family: monospace;
-      color: rgb(59, 57, 75);
-      font-size: 30px ;   
-      line-height: 1.5;  
-}
-.lado-direito{
-    margin-trim: 10px;
-    padding: 10px;
-    border: 1px solid rgb(73, 62, 62);
-    width: 100px;
-    height: 300px;
 
-    
+#cabecalho {
+  position: fixed;
+  top: 0;
+  font-family: monospace;
+  color: rgb(59, 57, 75);
+  font-size : 30px;
+  line-height: 1.5;
 }
+
+.lado-direito {
+  margin-trim: 10px;
+  padding: 10px;
+  border: 1px solid rgb(73, 62, 62);
+  width: 100px;
+  height: 300px;
+}
+
 #minha_foto {
-    width: 100%;
+  width: 100%;
 }
+
 .lado-esquerdo {
-    border: 1px solid rgb(44, 37, 44);
-    text-align: center;
-    width: 500px;
+  border: 1px solid rgb(44, 37, 44);
+  text-align: center;
+  width: 500px;
   display: inline-block;
-    
 }
 
 article , aside {
-    display: inline-block;
+  display: inline-block;
 }
 
