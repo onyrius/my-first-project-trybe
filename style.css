@@ -93,29 +93,67 @@ body {
 
 main {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  top: initial;
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  padding-bottom: 0;
 }
 
 .section-nav-bar-content {
   font-family: monospace;
   display: flex;
   position: relative;
-  border: 10px solid rgb(13, 243, 5);
+  border: 10px solid rgba(73, 4, 100, 0.733);
   padding: 0;
-  width: 35%;
   z-index: 1;
-  max-width: 40%;
-  top: 0;
+  max-width: 32%;
+  top: -5%;
+
 }
 
 .nav-bar-menu {
-  border: 4px solid red;
+  display: flex;
+  border: 4px solid rgb(12, 143, 125);
   position: relative;
   width: 100%;
 }
 
-#titulo-licoes-aprendida {
-  font-size: 1.5 vmin 1.5vmax;
+.box-licoes-aprendidas {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid rgba(87, 2, 95, 0.603);
+  margin: 0;
+  padding: 0;
+  width: 50%;
 }
+
+.box-licoes-a-aprender {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid rgba(87, 2, 95, 0.603);
+  margin: 0;
+  padding: 0;
+  width: 50%;
+
+}
+
+#titulo-licoes-aprendida , #titulo-licoes-a-aprender {
+  position: relative;
+  font-size: 2vmin;
+  background: rgba(47, 193, 140, 0.315);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #41197f;
+
+}
+
 
 #licoes_aprendidas {
   position: relative;
@@ -123,42 +161,37 @@ main {
   float: left;
   padding: 0;
   margin: 0;
-  font-size: 2vmin;
-  max-width: 100%;
+  font-size: 1.8vmin;
   font-weight: 500;
   list-style: none;
   background-color: rgba(53, 46, 94, 0.89);
   color: rgb(47, 193, 140);
   border-radius: 15px;
-  text-align: center;
+  text-align: left;
   visibility: visible;
   height: 100%;
-  margin-right: 1%;
-
+  margin-right: 5%;
 }
 
 li {
-  margin: 10px;
+  margin-top: 5%;
+  letter-spacing: 1%;
 }
 
 #licoes_a_aprender {
   position: relative;
   border: 2px solid rgba(168, 15, 160, 0.349);
-  float: left;
   padding: 0;
   margin: 0;
-  font-size: 2vmin;
-  max-width: 100%;
+  font-size: 1.8vmin;
   font-weight: 500;
   list-style: none;
   background-color: rgba(53, 46, 94, 0.89);
   color: rgb(47, 193, 140);
   border-radius: 15px;
-  text-align: center;
+  text-align: right;
   visibility: visible;
-  height: 100%;
-  margin-left: 10%;
-
+  margin-left: 5%;
 }
 
 .box-foto-suelen {
@@ -167,7 +200,8 @@ li {
   margin: 0;
   padding: 0;
   float: top;
-
+  border-bottom: 10px solid #41197f;
+  background-color: #42197fc4;
 }
 
 #minha_foto {
@@ -175,12 +209,12 @@ li {
   width: 100%;
   align-self: top;
   padding: 0;
-  margin: 0;
+
 
 }
 
 .container_article_aside {
-  border: 5px solid  rgb(252, 9, 191);
+  border: 5px solid  rgba(252, 9, 191, 0.199);
   position: relative;
   width: 65%;
   display: inline-block;
@@ -191,7 +225,6 @@ li {
 
 .lado-esquerdo {
   position: relative;
-  border: 2px solid rgb(18, 80, 6);
   text-align: justify;
   width: 40%;
   float: left;
@@ -202,23 +235,44 @@ li {
 
 .lado-direito {
   position: relative;
-  border: 5px solid rgb(136, 7, 13);
+  border: 5px double rgb(137, 43, 226);
   text-align: center;
   width: 30%;
   margin-left: 10%;
   display: flex;
-  font-size: 17px;
-  padding-top: 40%;
+  font-size: 45%;
+  padding-top: 29%;
+  max-height: 45%;
+  border-radius: 1%;
 }
 
+.box-foguete {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  top: 100%;
+  right: 50%;
+  z-index: 80;
+  float: right;
+}
+
+#foguete {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 #rodape {
   position: absolute;
   top: 2000px;
   background-color: rgba(53, 46, 94, 0.89);
   width: 100%;
-  height: 30px;
+  height: 25%;
   left: 0;
-  visibility: hidden;
+  text-decoration: none;
+  margin-bottom: 50%;
+
 }
 
