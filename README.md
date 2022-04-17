@@ -52,3 +52,6 @@ Através desta aplicação, será possível realizar a construção de código H
 
 
 ---
+## Status do projeto
+
+<img src="Captura de tela de 2022-04-17 19-39-43.png" />
